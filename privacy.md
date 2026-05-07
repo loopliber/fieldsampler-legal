@@ -7,7 +7,7 @@ Last updated: May 7, 2026
 
 ## Who we are
 
-FieldSampler is an iOS app for recording and designing audio samples. It is developed and maintained by Arvid Looplib (contact: looplib1@gmail.com).
+FieldSampler is an iOS app for recording and designing audio samples. It is developed and maintained by Looplib (contact: looplib1@gmail.com).
 
 ---
 
