@@ -11,20 +11,16 @@ FieldSampler is an iOS app for recording and designing audio samples. It is deve
 
 ---
 
-## What data we collect and why
+## What data we collect
 
 ### Microphone audio
 FieldSampler records audio through your device's microphone when you press the record button. Recordings are stored locally on your device in the app's private Documents folder. We do not transmit, upload, or share your recordings anywhere — they stay on your device unless you explicitly use the iOS share sheet to send a file yourself.
-
-### Location
-If you grant location permission, FieldSampler tags each recording with the approximate place it was captured (city, neighborhood, or street name) so you can find recordings on a map later. Location data is stored locally alongside the recording metadata. We do not transmit your location to any server, analytics service, or third party.
-
-Location permission is entirely optional. If you deny it, or revoke it later in Settings, recording continues to work normally — recordings simply won't carry a location tag.
 
 ---
 
 ## What we do NOT collect
 
+- No location data of any kind
 - No account or sign-in of any kind
 - No analytics or usage tracking
 - No advertising identifiers
@@ -35,7 +31,7 @@ Location permission is entirely optional. If you deny it, or revoke it later in 
 
 ## Data storage
 
-All data — recordings, metadata, and location tags — is stored in the app's sandboxed Documents directory on your device. It is included in standard iOS device backups (iCloud Backup or iTunes/Finder) unless you disable backups for FieldSampler in iOS Settings.
+All data — recordings and metadata — is stored in the app's sandboxed Documents directory on your device. It is included in standard iOS device backups (iCloud Backup or iTunes/Finder) unless you disable backups for FieldSampler in iOS Settings.
 
 Deleting the app removes all locally stored data permanently.
 
